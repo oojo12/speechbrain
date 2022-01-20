@@ -8,5 +8,5 @@ Follow the instructions at "insert getting started doc page link here" to set up
 ```
 git clone https://github.com/oojo12/speechbrain.git
 cd speechbrain/recipes/SLURP/NLU
-grid run prepare.py
+grid run --name speechbrain --instance_type=g4dn.xlarge prepare.py
 ```
